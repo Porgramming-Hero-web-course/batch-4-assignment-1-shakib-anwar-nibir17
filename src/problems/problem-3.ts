@@ -1,8 +1,8 @@
 const countWordOccurrences = (text: string, word: string): number => {
   const lowerCaseText = text.toLowerCase();
   const lowerCaseWord = word.toLowerCase();
-  const words = lowerCaseText.split(" ");
-  const occurrences = words.filter(
+  const words: string[] = lowerCaseText.split(" ");
+  const occurrences: number = words.filter(
     (word: string) => word === lowerCaseWord
   ).length;
   return occurrences;
