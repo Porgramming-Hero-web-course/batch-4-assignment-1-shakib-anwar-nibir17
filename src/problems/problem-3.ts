@@ -8,4 +8,4 @@ const countWordOccurrences = (text: string, word: string): number => {
   return occurrences;
 };
 
-const result3 = countWordOccurrences("I love typescript", "typescript");
+// const result3 = countWordOccurrences("I love typescript", "typescript");

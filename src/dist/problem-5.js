@@ -2,5 +2,5 @@
 const getProperty = (object, propertyName) => {
     return object[propertyName];
 };
-const person = { name: "Alice", age: 30 };
+// const person = { name: "Alice", age: 30 };
 // console.log(getProperty(person, "name"));
