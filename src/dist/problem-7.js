@@ -8,7 +8,7 @@ class Car {
     getCarAge() {
         const currentYear = new Date().getFullYear();
         if (this.year > currentYear) {
-            return this.year - currentYear;
+            return "Let the car be made first. Can calculate the age later";
         }
         else {
             return currentYear - this.year;

@@ -2,8 +2,8 @@
 const countWordOccurrences = (text, word) => {
     const lowerCaseText = text.toLowerCase();
     const lowerCaseWord = word.toLowerCase();
-    const words = lowerCaseText.split(" ");
+    const words = lowerCaseText.split(/\W+/);
     const occurrences = words.filter((word) => word === lowerCaseWord).length;
     return occurrences;
 };
-// const result3 = countWordOccurrences("I love typescript", "typescript");
+const result3 = countWordOccurrences("I love typescript", "typescript");
